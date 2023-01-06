@@ -1,0 +1,63 @@
+
+
+.modalOpen{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(img/sunlight-trees-landscape-forest-nature-grass-698937-wallhere.com.jpg)no-repeat center center / cover ;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.open-btn{    
+    width: 20rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: solid 1px #fff;
+    border-radius: 0.4rem;
+    padding: 1rem;    
+    box-shadow: 0 0 10px black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.open-btn:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    color: black;
+    box-shadow: 0 0 5px #fff;
+    font-weight: bold;
+}
+.open-btn:active{
+    background-color: rgba(127, 255, 212, 0.342);
+    box-shadow: 0 0 5px aquamarine;
+}
+.modal{
+    width: 15rem;
+    height: 5rem;
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    animation: animate-modal 0.5s;
+}
+.close-btn{
+    font-size: 3rem;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.close-btn:hover{
+    color: #ff0000;
+}
+
+.modal-container{
+    display: none;
+    z-index: 1;
+}
