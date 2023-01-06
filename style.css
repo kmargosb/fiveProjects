@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    background: url(img/library.jpg) no-repeat center center/ cover;
+}
+
+.container{
+    width: 550px;    
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 1px rgb(109, 109, 109);
+    color: #fff;
+    background-color: #262626;
+    padding: 0.6rem;
+    width: 80%;
+    margin: 1.2rem auto;
+    border-radius: 0.6rem;
+}
+
+.main-content{
+    width: 60%;    
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 3rem 2.5rem;
+    box-shadow: 10px 20px 50px;
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.main-content .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 1.2rem;
+}
+
+.btn-area button{
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0.6rem 1rem;
+    margin-top: 1.2rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.btn-area button:active{
+    background-color: lightblue;
+    border: none;
+}
+
+/* Mediaquery */
+
+@media (max-width: 800px){
+    .main-content{
+        width: 80%;
+    }    
+}
+
+@media (max-width: 560px){
+    .main-content{
+        width: 90%;
+        padding: 0.9rem 1.2rem;
+    }
+    .container{
+        width: 90%;
+    }
+    .header{
+        font-size: 3.5vw;        
+    }
+    .btn-area button{
+        font-size: 0.9rem;
+        padding: 0.6rem 1rem;
+        margin-top: 0.6rem;
+    }
+    
+}
