@@ -3,7 +3,7 @@
 .modalOpen{
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     background: url(img/sunlight-trees-landscape-forest-nature-grass-698937-wallhere.com.jpg)no-repeat center center / cover ;
     display: flex;
     flex-direction: column-reverse;
