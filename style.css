@@ -10,13 +10,12 @@ html{
     overflow-x: hidden; 
 }
 
-/* Project1 Quote Generator */
 .quoteGenerator{
     background: url(img/library.jpg) no-repeat center center/ cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
     text-align: center;
     flex-direction: column;    
 }
